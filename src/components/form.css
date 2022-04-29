@@ -1,0 +1,93 @@
+.form-comp {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+}
+
+.title {
+    font-size: 16px;
+    text-align: center;
+    line-height: 24.34px;
+}
+
+.thumbs,
+.up,
+.down {
+    display: flex;
+}
+
+.thumbs {
+    width: 137px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.up,
+.down {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ta {
+    height: 174px;
+    width: 184px;
+    background: #F4F4F4;
+    border-radius: 0;
+    resize: none;
+    text-indent: 5px;
+    margin-bottom: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    border: none;
+    font-size: medium;
+}
+
+.ta::placeholder {
+    font-family: 'Titillium Web', sans-serif
+}
+
+.actions button {
+    width: 67px;
+    height: 32px;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.skip-btn {
+    background: #fff;
+    color: #000;
+}
+
+.skip-btn:hover {
+    background: #ececec;
+
+}
+
+.sbmt-btn {
+    background: #0069D9;
+    color: #fff;
+}
+
+.sbmt-btn:hover {
+    background: #005abb;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+p {
+    padding-left: 7px;
+}

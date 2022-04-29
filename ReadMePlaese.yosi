@@ -1,0 +1,8 @@
+After page refresh, you'll get a double notification.
+This is because I left the React's strict mode on, so it runs twice on dev mode.
+On prod mode, it runs once. I could remove strict mode to fix it but preferred
+to stay with it to catch errors and better code writing.
+
+I hope this time I met all your expectations and understand all the requirements.
+
+Thanks for reviewing!
